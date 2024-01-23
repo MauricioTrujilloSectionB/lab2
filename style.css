@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(121, 234, 224);
+}
+
+h1{
+    color: blue;
+    font-size: xx-large;
+    background-color: rgb(241, 248, 248);
+}
+
+h2{
+    text-align: center;
+    color: blueviolet;
+    font-size:xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.background
+{
+    color: rgb(223, 9, 9);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.interests
+{
+    color: rgb(221, 228, 37);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.goals
+{
+    color: rgb(9, 158, 9);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.favorites
+{
+    color: rgb(11, 174, 206);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h4{
+    color: rgb(146, 9, 105);
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    flex-direction: row-reverse;
+
+    .item2{
+        color: antiquewhite;
+        text-align: center;
+        flex-direction: row-reverse;
+        font-size: smaller;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+}
+
+.header{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    flex-direction: row-reverse;
+
+    .item1{
+        color: antiquewhite;
+        text-align: center;
+        flex-direction: row-reverse;
+        font-size: smaller;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+}
+
+.info {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: rgb(4, 152, 145);
+    border-radius: 5px;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.background-flex {
+    margin: 40px auto 0 auto;
+    color: white;
+    background-color:rgb(52, 49, 49);
+    width: 750px;
+    margin: 5px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.favorites-flex {
+    margin: 40px auto 0 auto;
+    color: white;
+    background-color:rgb(52, 49, 49);
+    width: 500;
+    margin: 5px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.goals-flex {
+    margin: 40px auto 0 auto;
+    color: white;
+    background-color:rgb(52, 49, 49);
+    width: 400;
+    margin: 5px;
+    line-height: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.interests-flex {
+    margin: 40px auto 0 auto;
+    color: white;
+    background-color:rgb(52, 49, 49);
+    width: 350px;
+    margin: 5px;
+    line-height: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+}
